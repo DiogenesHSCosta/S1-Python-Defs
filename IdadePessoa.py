@@ -1,5 +1,8 @@
 def idade(nome, idade):
-    print(f'idade do(a) {nome} é {2024 - idade}')
+    idade = 2024 - idade
+    print(f'idade do(a) {nome} é {idade}')
+    return idade
+
 
 pessoa = idade('douglas', 2004)
 
