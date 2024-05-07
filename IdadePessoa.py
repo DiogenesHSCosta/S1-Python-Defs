@@ -8,10 +8,10 @@ def podeVotar(nome, idade):
         print(f'Não, a pessoa, {nome} ainda n pode votar')
         return False
 def calculaIdade(ano):
-    idade = 2024 - ano
-    return idade
+    return 2024 - ano
 
 
-pessoa = podeVotar('douglas', 2004)
+pessoaA = podeVotar('douglas', 2004)
+pessoaB = podeVotar('nando', 2012)
 
-print(pessoa)
+print(pessoaA, pessoaB)
