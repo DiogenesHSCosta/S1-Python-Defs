@@ -12,14 +12,13 @@ def carroValido(lista):
     validador = False
     listarCarros(lista)
 
-    while validador == False:
+    while True:
         escolha = input('Escolha um dos carros: ')
 
         for i in range(len(lista)):
             if escolha == lista[i]:
                 print('Carro escolhido Existe')
-                validador = True
-                break
+                return
 
 
 carroValido(carros1)
